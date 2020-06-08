@@ -1,0 +1,148 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<body>
+  <div>
+    <div id="pannelbox">
+      <img id="logo" class="toppanel">
+      <div id="pannel1" class="down">
+        <div id="pannelbox1" class="toppannel pannel" onclick="">Games</div>
+        <div class="dropdown d1">
+          <a href="#" class="downblank"></a>
+          <a href="#">Gamer Simulator</a>
+          <a href="https://thememedone.github.io/Epic-Clicky-Battle/">Epic Clicky Battle</a>
+        </div>
+      </div>
+      <div id="pannel2" class="down">
+        <div id="pannelbox2" class="toppannel pannel" onclick="">Projects</div>
+        <div class="dropdown d2">
+          <a href="#" class="downblank"></a>
+          <a href="#">nothing yet</a>
+          <a href="#">¯\_(ツ)_/¯</a>
+          <a href="#">still nothing yet</a>
+        </div>
+      </div>
+      <div id="pannel3" class="down">
+        <div id="pannelbox3" class="toppannel pannel" onclick="">Minecraft</div>
+        <div class="dropdown d3">
+          <a href="#" class="downblank"></a>
+          <a href="#" id="drop3">Maps</a>
+          <a href="#" id="drop3">Servers</a>
+        </div>
+      </div>
+      <div id="pannel4" class="down">
+        <div id="pannelbox4" class="toppannel pannel" onclick="">People</div>
+        <div class="dropdown d4">
+          <a href="#" class="downblank"></a>
+          <a href="#" id="drop4">Creators</a>
+          <a href="#" id="drop4">Donaters</a>
+          <a href="https://discord.gg/AYQDTsb" id="drop4">Our Discord Server</a>
+        </div>
+      </div>
+      <img id="discord" src="">
+    </div>
+  </div>
+</body>
+<style>
+  body {
+    background-color: #25202e;
+    font-family: Futura, Trebuchet MS, Arial,  sans-serif;
+  }
+  #pannelbox {
+    height: 8vh;
+    width: 100vw;
+    background-color: #352c42;
+    left: 0vh;
+    top: 0vh;
+    box-shadow: 0vh 0vh 3vh black;
+    position: fixed;
+  }
+  .pannel {
+    position: fixed;
+  }
+  .toppannel {
+    z-index: 99999;
+    width: 15vw;
+    height: 3vw;
+    border-radius: 1vw;
+    background: rgb(65,56,195);
+    background: linear-gradient(90deg, rgba(65,56,195,1) 0%, rgba(79,197,255,1) 100%);
+    text-align: center;
+    color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    line-height: 3vw;
+    vertical-align: middle;
+    font-size: 1.5vw;
+    font-weight: 900;
+    top: 4vh;
+    margin-top: -1.5vw;
+    margin-left: -7.5vw;
+    margin-right: -7.5vw;
+    user-select: none;
+  }
+  #pannelbox1 {
+    left: 35.5vw;
+  }
+  #pannelbox2 {
+    left: 53.5vw;
+  }
+  #pannelbox3 {
+    left: 71.5vw;
+  }
+  #pannelbox4 {
+    left: 89.5vw;
+  }
+  .down {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown {
+    display: none;
+    position: fixed;
+    background-color: white;
+    min-width: 15vw;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: -7.5vw;
+    margin-right: -7.5vw;
+    color: black;
+    top: 4vh;
+  }
+  .d1 {
+    left: 35.5vw;
+  }
+  .d2 {
+    left: 53.5vw;
+  }
+  .d3 {
+    left: 71.5vw;
+  }
+  .d4 {
+    left: 89.5vw;
+  }
+  
+  .dropdown a {
+    color: black;
+    height: 3vw;
+    font-size: 1.3vw;
+    text-decoration: none;
+    display: block;
+    padding-left: 0.7vw;
+    line-height: 3vw;
+    vertical-align: middle;
+  }
+  .downblank {
+    background-color: white !important;
+    height: 1.5vw !important;
+  }
+  .dropdown a:hover {background-color: #c4cae3;}
+  #pannel1:hover .dropdown {display: block;}
+  #pannel2:hover .dropdown {display: block;}
+  #pannel3:hover .dropdown {display: block;}
+  #pannel4:hover .dropdown {display: block;}
+  
+  
+  
+  
+</style>
+<script>
+  
+</script>
